@@ -11,8 +11,8 @@ function Home () {
             <h2 className="text-3xl font-semibold mb-2 text-zinc-700 ">About Me</h2>
             <div className="text-zinc-600 leading-relaxed">
                 <p>Hi! I'm Luca Mancuso, a fourth-year Computer Science student at the University of Western Ontario with a passion for software development and creative problem-solving. I'm currently seeking internship opportunities for Fall 2025.</p>
-                <p>I enjoy blending my personal interests with my technical skills to build projects I find meaninful. I developed a full-stack movie logging website and am currently working on a music collage-making site inspired by my hobbies of watching movies and listening to a wide variety music.</p>
-                <p>My technical skills includes experience in full-stack development using technologies like React, Next.js, Tailwind, and various backend tools and APIs. I take pride in writing clean, maintainable code and enjoy designing intuitive, user-friendly interfaces.</p>
+                <p>I enjoy blending my personal interests with my technical skills to build projects I find meaningful. I developed a full-stack movie logging website and am currently working on a music collage-making site inspired by my hobbies of watching movies and listening to a wide variety music.</p>
+                <p>My technical skills include experience in full-stack development using technologies like React, Next.js, Tailwind, and various backend tools and APIs. I take pride in writing clean, maintainable code and enjoy designing intuitive, user-friendly interfaces.</p>
                 <p>Beyond coding, I’m proactive in my learning and teamwork. I've led group projects, competed in hackathons, and taken initiative to explore tools like Godot, Next.js, and Jupyter Notebook. I take pride in being both a quick learner and flexible in new environments.</p>
             </div>
         </section>
