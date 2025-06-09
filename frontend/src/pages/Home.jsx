@@ -33,9 +33,9 @@ function Home () {
             
             <div className = "grid grid-cols-1 gap-6 ">
                 <ProjectBubble project = {{title: "Music Grid-Builder Website – Full Stack Project (In Progress!)", text: 
-                    ["Designed and developed a website using JavaScript, React, and Next.js where users can build a downloadable grid-style collage of their favorite music albums to show off their personal music taste with others",
-                    "Users are able to search for their desired albums, EPs, and singles using the Last.fm API",
-                    "Users have the ability to create several different 'grids', allowing users to catalogue their recent activity, what they want to listen to next, etc."]}}>
+                    ["Built a dynamic full-stack web application that lets users create and share grid-style collages of their favorite music albums in a shareable format",
+                    "Designed the front end with JavaScript, React and Next.js, featuring album search via the Last.fm API and drag-and-drop functionality using React DnD",
+                    "Implemented Firebase Authentication for secure user login and Firestore to persist and retrieve user-created album grids"]}}>
                 </ProjectBubble>
                 <ProjectBubble project = {{title: "Movie Logging Website – Full Stack Project", text: 
                     ["Designed and developed a personal movie cataloging website using JavaScript with React, enabling users to ‘like’ movies they have watched, and search for movies and their details via the TMDB API.",
