@@ -1,23 +1,21 @@
 import Home from './pages/Home'
-import ContactMe from './pages/ContactMe'
-import NavBar from './components/navBar'
+import NotFound from './pages/NotFound'
 import { Routes, Route } from "react-router-dom"
 
 
 function App() {
-  
+
   return <div>
 
-    <NavBar/>
-      <div className="min-h-screen min-w-screen pt-16 bg-gradient-to-br from-white to-slate-300 text-gray-800 font-sans">
+      <div className="min-h-screen min-w-screen bg-bg0 text-fg1 font-sans">
         <Routes>
           <Route path = "/" element = {<Home />} />
-          <Route path = "/contact-me" element = {<ContactMe />} />
+          <Route path = "*" element = {<NotFound />} />
         </Routes>
       </div>
-      
+
     </div>
-  
+
 }
 
 export default App
